@@ -1,14 +1,13 @@
+import React from 'react';
+import HomePage from './pages/HomePage';
 
-import './App.css'
-import HomePage from "./pages/HomePage.tsx";
+const App: React.FC = () => {
+    return (
+        <div className="font-sans">
+            {/* Rendering the HomePage */}
+            <HomePage />
+        </div>
+    );
+};
 
-function App() {
-
-  return (
-    <>
-        <HomePage  />
-    </>
-  )
-}
-
-export default App
+export default App;
